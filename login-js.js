@@ -12,5 +12,7 @@ function validateForm() {
     return false;
   }
 
-  return true;
+  // Se passou na validação, redireciona manualmente
+  window.location.href = "index.html";
+  return false; // impede envio real do formulário
 }
